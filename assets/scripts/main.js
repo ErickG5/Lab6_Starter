@@ -83,7 +83,7 @@ function initFormHandler() {
   });
 
   // B10. Get the "Clear Local Storage" button
-  const clearButton = document.querySelector('button[type="button"]');
+    const clearButton = document.querySelector('button.danger');
 
   // B11. Listen for click on clear button
   clearButton.addEventListener('click', () => {
